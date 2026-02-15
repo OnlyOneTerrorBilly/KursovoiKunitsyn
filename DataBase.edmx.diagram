@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4d677a6a24714eeba24610865790bc5c" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseModel.CompanyPostavshiki" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.EdinicyIzmereniya" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.MaterialyIFurnitura" Width="1.5" PointX="5.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.OformlenieZakaza" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Polzovateli" Width="1.5" PointX="12" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.PostuplenieTovara" Width="1.5" PointX="10" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.PostuplenieTovara_Soderzhimoe" Width="1.5" PointX="12.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Roli" Width="1.5" PointX="9.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Sborka" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Sborka_Materialy" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Specifikaciya_Materialy" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.SpecifikaciyaNaIzdelie" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.SpisokZakazov" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.StatusyZakazov" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.TipyMaterialov" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Zakazchiki" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="DataBaseModel.FK_PostuplenieTovara_CompanyPostavshiki" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_MaterialyIFurnitura_EdinicyIzmereniya" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_MaterialyIFurnitura_TipyMaterialov" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PostuplenieTovara_Soderzhimoe_MaterialyIFurnitura" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Sborka_Materialy_MaterialyIFurnitura" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Specifikaciya_Materialy_MaterialyIFurnitura" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_OformlenieZakaza_Zakazchiki" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Sborka_OformlenieZakaza" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Sborka_OformlenieZakaza1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpecifikaciyaNaIzdelie_OformlenieZakaza" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpisokZakazov_OformlenieZakaza" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Polzovateli_Roli" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PostuplenieTovara_Soderzhimoe_PostuplenieTovara" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Sborka_Materialy_Sborka" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Specifikaciya_Materialy_SpecifikaciyaNaIzdelie" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpecifikaciyaNaIzdelie_SpisokZakazov" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpecifikaciyaNaIzdelie_Zakazchiki" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpisokZakazov_StatusyZakazov" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_SpisokZakazov_Zakazchiki" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
