@@ -72,11 +72,7 @@
                                    FontWeight="Bold" 
                                    Foreground="White" 
                                    HorizontalAlignment="Center"/>
-                        <TextBlock Text="(Менеджер, Директор, Админ)" 
-                                   FontSize="12" 
-                                   Foreground="LightGray" 
-                                   HorizontalAlignment="Center" 
-                                   Margin="0,5,0,0"/>
+                        
                     </StackPanel>
                 </Button>
 
@@ -92,11 +88,7 @@
                                    FontWeight="Bold" 
                                    Foreground="White" 
                                    HorizontalAlignment="Center"/>
-                        <TextBlock Text="(Замерщик, Директор, Админ)" 
-                                   FontSize="12" 
-                                   Foreground="LightGray" 
-                                   HorizontalAlignment="Center" 
-                                   Margin="0,5,0,0"/>
+                        
                     </StackPanel>
                 </Button>
 
@@ -112,11 +104,7 @@
                                    FontWeight="Bold" 
                                    Foreground="White" 
                                    HorizontalAlignment="Center"/>
-                        <TextBlock Text="(Замерщик, Директор, Админ)" 
-                                   FontSize="12" 
-                                   Foreground="LightGray" 
-                                   HorizontalAlignment="Center" 
-                                   Margin="0,5,0,0"/>
+                        
                     </StackPanel>
                 </Button>
 
@@ -132,11 +120,7 @@
                                    FontWeight="Bold" 
                                    Foreground="White" 
                                    HorizontalAlignment="Center"/>
-                        <TextBlock Text="(Мастер, Директор, Админ)" 
-                                   FontSize="12" 
-                                   Foreground="LightGray" 
-                                   HorizontalAlignment="Center" 
-                                   Margin="0,5,0,0"/>
+                        
                     </StackPanel>
                 </Button>
 
@@ -152,11 +136,7 @@
                                    FontWeight="Bold" 
                                    Foreground="White" 
                                    HorizontalAlignment="Center"/>
-                        <TextBlock Text="(Все роли)" 
-                                   FontSize="12" 
-                                   Foreground="LightGray" 
-                                   HorizontalAlignment="Center" 
-                                   Margin="0,5,0,0"/>
+                        
                     </StackPanel>
                 </Button>
 
